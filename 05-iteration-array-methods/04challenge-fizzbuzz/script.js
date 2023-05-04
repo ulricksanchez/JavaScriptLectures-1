@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 !== 0) {
     console.log('Number ' + i + ': Fizz');
@@ -10,7 +9,6 @@ for (let i = 1; i <= 100; i++) {
     console.log('Number ' + i);
   }
 }
-=======
 //For Loop
 for (let i = 1; i <= 100; i++) {
   if (i % 5 === 0 && i % 3 === 0) {
@@ -39,4 +37,3 @@ while (j <= 100) {
   }
   j++;
 }
->>>>>>> upstream/master
