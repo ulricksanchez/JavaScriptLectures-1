@@ -1,5 +1,5 @@
 function insertAfter() {
-  //FOO
+  firstItem.insertAdjacentElement('afterend', li);
 }
 
 // New element to insert
@@ -10,4 +10,5 @@ li.textContent = 'Insert Me After!';
 const firstItem = document.querySelector('li:first-child');
 
 // Our custom function
+
 insertAfter(li, firstItem);
