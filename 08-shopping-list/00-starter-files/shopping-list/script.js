@@ -1,9 +1,12 @@
 function addItem() {
-  var input = document.getElementById('item-input').value;
+  const input = document.getElementById('item-input').value;
 
-  var newItem = document.createElement('li');
-  newItem.textContent = input;
+  const newItem = document.createElement('li');
+  newItem.innerHTML = `${input}   <button class="remove-item btn-link text-red">
+  <i class="fa-solid fa-xmark"></i>
+</button>`;
+  // newItem.textContent = input;
 
-  var list = document.getElementById('item-list');
+  const list = document.getElementById('item-list');
   list.appendChild(newItem);
 }
